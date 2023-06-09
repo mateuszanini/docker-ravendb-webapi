@@ -19,7 +19,7 @@ services:
       - RAVEN_PublicServerUrl_Tcp=tcp://raven:38888
     env_file: ./license.env
   passaro.api:
-    image: passaro-imagem
+    image: mateustce/passaro-imagem:certificado-desenvolvimento-ok
     ports:
       - 8000:80
       - 8001:443
